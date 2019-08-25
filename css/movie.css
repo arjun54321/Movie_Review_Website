@@ -1,0 +1,130 @@
+body {
+    background: #333 !important;
+    margin : 0;
+    font-family: "Arimo",Arial,Helvetica,"Lucida Grande",sans-serif !important;
+    letter-spacing: -.03em;
+    color: #fff;
+    font-size: 16px;
+}
+
+#movies img, #movie img{
+    width: 70%;
+} 
+
+.poster-image {
+    border: 5px solid #fff;
+    border-radius: 5px;
+    
+}
+
+#movie {
+    margin-top: 100px;
+}
+
+.box1 {
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+.box2 {
+    /* background: red; */
+    padding: 10px;
+}
+
+.movie-title {
+    font-size: 2.5em;
+    line-height: 42px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.title-second {
+    font-size: 1.5em;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.box3 {
+    text-align: left;
+    padding: 20px 0 20px;
+    color: #fff;
+}
+
+.btn-one{
+    margin-top: 5px;
+    padding: 10px 15px;
+    font-size: 20px;
+    display: inline;
+    color: #fff;
+    background: #6AC045;;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+.btn-second {
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    display: inline;
+    color: #fff;
+    background: #222;;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff !important;    
+}
+
+/*  */
+
+.review {
+
+    border-top: 1px solid #111 ;
+    border-bottom: 1px solid #111 ;
+    padding: 10px;
+}
+
+.box-review1{
+    text-align: center;
+}
+.box-review2{
+    color: #fff;
+
+    /* background: blue; */
+}
+
+.main-review{
+    border-radius: 10px;
+    background: #222;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-profile {
+    border-radius: 50%;
+    padding: 10px;
+    width: 70%;
+}
+
+.footer {
+    text-align: center;
+    background: #222;
+    color: silver;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0 10px;
+}

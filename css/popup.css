@@ -1,0 +1,118 @@
+
+.log-box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+    }
+    
+    .open-button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #6AC045;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    }
+    
+    .button:hover {
+    background: #6AC045;
+    }
+    
+    .popup-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    }
+    .popup-overlay:target {
+    visibility: visible;
+    opacity: 1;
+    }
+    
+    .log-popup {
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 1s ease-in-out;
+    text-align: center;
+    }
+    
+    .log-popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+    text-transform: uppercase;
+    }
+    .log-popup .close-window {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    }
+    .log-popup .close-window:hover {
+    color: #6AC045 !important;
+    }
+    .log-popup .log-content {
+    max-height: 30%;
+    overflow: auto;
+    }
+    
+    @media screen and (max-width: 700px){
+    .log-box{
+        width: 70%;
+    }
+    .log-popup{
+        width: 70%;
+    }
+    }
+    
+    
+    .log-input{
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-top: 15px;
+    width: 60%;
+    border: 1px solid #6AC045;
+    outline: 0;
+    border-radius: 50px;
+    } 
+    
+    .btn-log {
+        font-size: 18px;
+        background: #6AC045;
+        padding: 10px;
+        border: 0;
+        outline: 0;
+        display: inline;
+        color: #fff;
+        width: 60%;
+        border-radius: 50px;
+        margin-top: 13px;
+    }
+
+    .icon {
+        padding: 15px 18px;
+        background: #6AC045;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+    }

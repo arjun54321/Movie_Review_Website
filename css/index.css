@@ -1,0 +1,197 @@
+body {
+    
+    background: #111 !important;
+    margin : 0;
+    font-family: "Arimo",Arial,Helvetica,"Lucida Grande",sans-serif !important;
+    letter-spacing: -.03em;
+    color: #fff;
+    font-size: 16px;
+}
+
+.body{
+    padding:100px 0 30px 0;
+    
+}
+.inner-body {
+    text-align: center;
+    padding: 20px 20px;
+    width: 80%;
+}
+
+.title {
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.content{
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.btn-main {
+    padding: 10px 30px;
+    border: 1px solid #6AC045;
+    background: transparent;
+    color: #fff !important;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+
+.btn-main-primary {
+    background-color: #6AC045;
+    color: #fff !important;
+    text-align: center;
+    width: 20%;
+}
+
+.btn-main:hover {
+    background: #6AC045;
+    color: #fff;
+}
+
+.searchBox {
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 30px;
+    padding: 7px 20px;
+    width: 50%;
+    border: 2px solid #6AC045;
+    outline: 0;
+    display: inline;
+    color: #fff;
+    background:transparent;
+}
+
+.about-box {
+    background: #222;
+    text-align: center;
+}
+
+.about {
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    width:60%;
+}
+
+.about-content {
+    font-size: 20px;
+    color: silver;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.ratedMoviesHead{
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.movieBox {
+    background: #222;
+    padding: 15px;
+    border-radius: 5px; 
+}
+
+.img {
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+.browse-movie-bottom{
+    margin: 0 10px;;
+    max-width: 220px;
+    text-align: left;
+}
+
+.browse-movie-title{
+    font-size: 0.95em;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    transition: color .15s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a{
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+.browse-movie-year {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #919191;
+}
+
+.button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline;
+    color: #fff;
+    background: #6AC045;;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.box{
+    padding: 15px;  
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: #fff !important;    
+}
+
+/* @media(max-width:960px){
+    .hidden-sm{
+        opacity: 0;
+    }
+} */
+
+@media screen and (max-width: 960px) {
+    .hidden-sm{
+        display: none;
+        
+    }
+}
+
+.row {
+    padding : 20px 0;
+} 
+
+#topMovies1 img, #topMovies2 img, #topMovies3 img, #topMovies4 img, #topMovies5 img{
+    width: 100%;
+} 
+
+.footer {
+    text-align: center;
+    background: #222;
+    color: silver;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px 0 10px;
+}
